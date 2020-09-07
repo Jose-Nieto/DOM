@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>
+Tablas dinámicas con JavaScript
+ </title>
+ <link rel="stylesheet" href="css/tablas.css" />
+
+</head>
+<body>
+<div class="main_content">
+
+<div class="first">
+ <p>
+ <img id="logo" src="img/form.png" />
+ <h1>Constructor de tablas</h1>
+ </p>
+</div>
+
+<div class="two">
+ <h4>Campos de formulario usados con frecuencia</h4>
+ <label for=""  class="fila"> Filas</label>
+ <input type="text" id="filas" >
+ <label for="" class="columna"> Columnas</label>
+
+ <input type="text" name="columnas" id="columnas" >
+ <button onclick='Gtablas();'>Generar</button>
+ <label for="" class="Modfilas"> Indique fila</label>
+ <input type="number"  id="ModFilas" >
+ 
+ <label for="" class="Dato"> Dato a sustituir</label>
+ <input type="text" id="Sus" >
+ <button id="enviar">Modificar</button>
+
+</div>
+
+<div class="three">
+ <h2>tabla creada dinámicamente</h2>
+<div id="Tabla">
+
+
+</div>
+</div>
+</div> <!-- Fin de div id="main_content" -->
+<script src="js/tablas.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Gasolinera de soyapango</title>
+ <meta charset="utf-8" />
+ <link rel="stylesheet" href="css/pizza.css" />
+</head>
+<body>
+   <div class="nav">
+    
+      <div class="ul">
+          <img class="logo" src="img/logo.png" alt="">
+       <li class="menu"><a href="#">Inicio</a></li>
+            <li class="menu"><a href="tablas.html" target="_blank">Tablas</a>
+          </li>
+          <li class="menu"><a href="#">Ejemplos </a> 
+         <ul class="submenu">
+         <li class="sublista"><a href="dom.html" target="_blank">Ejemplo 1</a></li>
+         <li class="sublista"><a href="formbuilder.html" target="_blank">Ejemplo 2</a></li>
+         <li class="sublista"><a href="nodos.html" target="_blank">Ejemplo 3</a></li>
+         <li class="sublista"><a href="ordenpizza.html" target="_blank">Ejemplo 4</a></li>
+    
+         
+         </ul>
+           </li>
+          </li>
+      </div>
+  </div> 
+
+<form action="javascript:void(0);" class="demoForm" id="pizzaForm">
+ <fieldset>
+ <legend>Menu de compra</legend>
+ <p>Tipo:
+ <label><input type="radio" name="size" value="3.96" id="diesel" checked="checked"
+/>Diesel </label>
+ <label><input type="radio" id="regular" name="size" value="4.05" />Regular</label>
+ <label><input type="radio" name="size" id="especial" value="4.27" />Especial</label>
+ <input type="hidden" name="sz_tot" value="0.00" />
+ </p>
+ <p id="pizza_toppings"><label>Cantidad de galones:</label>
+    <input id="cantidad" type="number" min="1" max="150" pattern="^[0-9]+">
+ </p>
+ <p>
+ <label>
+ Total: $<input type="text" name="total" id="subtotal" class="num" value="0.00"
+readonly="readonly" />
+ </label>
+ </p>
+
+ </fieldset>
+</form>
+<script src="js/gasolinera.js"></script>
+</body>
+</html>
