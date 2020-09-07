@@ -136,6 +136,7 @@ form.demoForm fieldset {
     border: 1px solid #ddd;
     margin: 0 auto;
     width: 60%;
+    height: 300px;
 }
 
 form.demoForm p {
@@ -152,14 +153,23 @@ form.demoForm label {
 form.demoForm input {
     vertical-align: bottom;
     padding:0;
+ 
     margin:0; /* needed for checkboxes */
 }
 form.demoForm input.num {
     text-align: right;
     width: 50px;
+    margin-top: 100px;
+
 }
 
 /* for ie8+ (wraps tightly) */
 form.demoForm input[type=submit] {
     padding:1px 4px;
+}
+#cantidad{
+    margin-top: 10px;
+}
+.tipo{
+    margin-top: 90px;
 }
