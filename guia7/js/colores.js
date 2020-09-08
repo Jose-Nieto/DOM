@@ -75,6 +75,27 @@ var tres=document.getElementById("tres");
             h1.style.fontFamily="Permanent Marker";
      
              }
-        
+        if(cambiar.value=="0"){
+         uno.style.backgroundColor="white";
+         uno.style.textAlign="unset";
+         uno.style.color="black";
+         uno.style.fontFamily=" sanserif";
+         uno.style.boxShadow="1px 1px 1px 1px #fff";
+         h1.style.fontFamily="sanserif ";
+         dos.style.backgroundColor="white";
+         dos.style.textAlign="unset";
+         dos.style.color="black";
+         dos.style.fontFamily=" sanserif";
+         dos.style.boxShadow="1px 1px 1px 1px #fff";
+         h1.style.fontFamily="sanserif ";
+         tres.style.backgroundColor="white";
+         tres.style.textAlign="unset";
+         tres.style.color="black";
+         tres.style.fontFamily=" sanserif";
+         tres.style.boxShadow="1px 1px 1px 1px #fff";
+         h1.style.fontFamily="sanserif ";
+         tres.style.color="none";
+  
+        }
         });
 
