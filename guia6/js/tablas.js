@@ -28,7 +28,7 @@ celdas=document.querySelectorAll("tr td");
 
 }
 
-    boton=document.getElementById("enviar");
+boton=document.getElementById("enviar");
 
 boton.addEventListener('click', function(){
 
