@@ -1,32 +1,25 @@
+*{
+    font-family: 'Grandstander', cursive;
+}
 #imgwrapper {
     /* Old browsers */
-    background: #ffffbc; 
-    /* FF3.6+ */
-    background: -moz-linear-gradient(-45deg, #ffffbc 0%, #f9fccf 100%); 
-    /* Chrome,Safari4+ */
-    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffbc), color-stop(100%,#f9fccf)); 
-    /* Chrome10+,Safari5.1+ */
-    background: -webkit-linear-gradient(-45deg, #ffffbc 0%,#f9fccf 100%); 
-    /* Opera 11.10+ */
-    background: -o-linear-gradient(-45deg, #ffffbc 0%,#f9fccf 100%); 
-    /* IE10+ */
-    background: -ms-linear-gradient(-45deg, #ffffbc 0%,#f9fccf 100%); 
-    /* W3C */
-    background: linear-gradient(135deg, #ffffbc 0%,#f9fccf 100%); 
-    /* IE6-9 fallback on horizontal gradient */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffbc', endColorstr='#f9fccf',GradientType=1 ); 
+box-shadow: 1px 1px 1px 1px #000;
+
     border-radius: 25px;
-    border: 6px ridge rgba(30,125,200,0.75);
-    height: auto;
+
+    height: 300px;
     margin: 26px auto;
     padding: 16px 18px;
-    width: 18%;
+    width: 23%;
+  
 }
-
+h1{
+    text-align: center;
+}
 #imgwrapper p {
-    color: #1E4496;
-    font: Normal 1em/1 'Cantarell-Regular',Arial,Helvetica,"Liberation Sans";
-    text-shadow: 3px 3px 2px #297CA6;
+    color: #000;
+    text-align: center;
+ 
 }
 
 img {
@@ -36,7 +29,9 @@ img {
 	-ms-box-shadow: 2.5px 2.5px 0.5px 0 rgba(125,127,125,0.8);
     box-shadow: 2.5px 2.5px 0.5px 0 rgba(125,127,125,0.8);
 	display: block;
-	height: 122px;
-	width: 130px;
+    height: auto;
+
+    margin-left: -60px;
+	width: 300px;
 	margin: 0 auto;
 }
